@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reminder App</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="my_reminders">My Reminders</string>
+    <string name="no_reminders">No reminders yet. Tap + to add one.</string>
+</resources>
