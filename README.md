@@ -159,21 +159,6 @@ git clone https://github.com/sandhyarani-cse/reminder-app.git
 
 ---
 
-## 🐛 Fixes vs Original APK
-
-| # | Issue | Fix |
-|---|-------|-----|
-| 1 | `usename` typo in DB column | Fixed to `username` in `ReminderDBHelper` |
-| 2 | `SCHEDULE_EXACT_ALARM` permission missing | Added to manifest |
-| 3 | `POST_NOTIFICATIONS` permission missing | Added to manifest |
-| 4 | `RECEIVE_BOOT_COMPLETED` permission missing | Added to manifest |
-| 5 | `title` field missing from Reminder entity | Added `title` column |
-| 6 | `AddReminderActivity` not a separate Activity | Extracted from inline dialog |
-| 7 | Class names didn't match README | Renamed throughout |
-| 8 | Original used Room instead of SQLiteOpenHelper | Rebuilt with `SQLiteOpenHelper` |
-
----
-
 ## 🔭 Future Improvements
 
 - Voice input for adding reminders
